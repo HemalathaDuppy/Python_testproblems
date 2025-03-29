@@ -1,0 +1,9 @@
+harry=int(input())
+ron=int(input())
+hermoine=int(input())
+if harry>ron and harry>hermoine:
+     print("Harry got most points.")
+elif ron>hermoine:
+     print("Ron got most points.")
+else:
+     print("Hermoine got most points")
